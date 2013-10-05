@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/novos"
+        android:title="Novo"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_novo"
+        />
+    
+    <item
+        android:id="@+id/mapa"
+        android:title="Mapa"
+        android:icon="@drawable/ic_mapa"
+        android:showAsAction="always"/>
+    
+   
+     
+     
+     <item
+        android:id="@+id/opcoes"
+        android:icon="@drawable/ic_opcoes"
+        android:title="Opções"
+        android:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/enviar_alunos"
+                android:icon="@drawable/ic_enviar"
+                android:showAsAction="always"
+                android:title="Sincronizar"/>
+            
+            <item
+                android:id="@+id/preferencias"
+                android:showAsAction="always"
+                android:title="Baixar Provas"/>
+            <item
+                android:id="@+id/preferencias"
+                android:showAsAction="always"
+                android:title="Preferências"/>
+        </menu>
+    </item>
+
+</menu>

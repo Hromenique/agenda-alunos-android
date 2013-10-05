@@ -2,6 +2,8 @@ package br.com.caelum.cadastro;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
@@ -46,4 +48,14 @@ public class ListaAlunos extends Activity {
 			}
 		});
 	}
+	
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		MenuInflater inflater = getMenuInflater();
+		inflater.inflate(R.menu.listagem_alunos, menu);
+		
+		return super.onCreateOptionsMenu(menu);
+		
+	}
+	
 }
