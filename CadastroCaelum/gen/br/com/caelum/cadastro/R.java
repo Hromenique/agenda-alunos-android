@@ -31,14 +31,14 @@ public final class R {
     public static final class id {
         public static final int botao=0x7f08000a;
         public static final int endereco=0x7f080005;
-        public static final int enviar_alunos=0x7f08000e;
+        public static final int enviar_alunos=0x7f08000f;
         public static final int lista=0x7f08000b;
         public static final int mapa=0x7f08000d;
         public static final int nome=0x7f080001;
         public static final int nota=0x7f080009;
-        public static final int novos=0x7f08000c;
-        public static final int opcoes=0x7f080010;
-        public static final int preferencias=0x7f08000f;
+        public static final int novo=0x7f08000c;
+        public static final int opcoes=0x7f08000e;
+        public static final int preferencias=0x7f080010;
         public static final int site=0x7f080003;
         public static final int telefone=0x7f080007;
         public static final int textView1=0x7f080000;
